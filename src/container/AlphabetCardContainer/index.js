@@ -11,19 +11,19 @@ export default class AlphabetCardContainer extends React.Component {
     >
         <ScrollView horizontal={true}>
             <View>
-                <AlphabetCardComponent />
-                <AlphabetCardComponent />
-                <AlphabetCardComponent />
+                <AlphabetCardComponent alphabetRange="A-C" />
+                <AlphabetCardComponent alphabetRange="D-F" />
+                <AlphabetCardComponent alphabetRange="G-I" />
             </View>
             <View>
-                <AlphabetCardComponent />
-                <AlphabetCardComponent />
-                <AlphabetCardComponent />
+                <AlphabetCardComponent alphabetRange="J-L" />
+                <AlphabetCardComponent alphabetRange="M-O" />
+                <AlphabetCardComponent alphabetRange="P-R" />
             </View>
             <View>
-                <AlphabetCardComponent />
-                <AlphabetCardComponent />
-                <AlphabetCardComponent />
+                <AlphabetCardComponent alphabetRange="S-U" />
+                <AlphabetCardComponent alphabetRange="V-X" />
+                <AlphabetCardComponent alphabetRange="Y-Z" />
             </View>
         </ScrollView>
       </ScrollView>

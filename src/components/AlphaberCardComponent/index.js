@@ -3,9 +3,10 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default class AlphabetCardComponent extends React.Component {
   render() {
+    const { alphabetRange } = this.props;
     return (
       <View style={styles.cardComp}>
-        <Text style={styles.content}> A - a</Text>
+        <Text style={styles.content}> {alphabetRange} </Text>
       </View>
     );
   }
